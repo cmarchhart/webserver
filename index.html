@@ -27,7 +27,7 @@
 <script>
     function CreateTableFromJSON() {
         
-        fetch('http://inventory:80/inventory/')
+        fetch('http://inventory:80/inventory')
         .then(response => response.json())
         .then(data => {
         // Do what you want with your data
